@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("snow.jpg") no-repeat 100% 100%;
+  opacity: 0.9;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  color: white;
+  text-shadow: 0px 0px 300px black;
+  position: relative;
+  margin: auto;
+  font-size: 600%;
+}
+
+.button {
+  background: linear-gradient(45deg, rgba(217,245,255,0.65) 0%, rgba(168,195,250,0.65) 51%, rgba(187,208,250,0.65) 100%);
+  border-radius: 4px;
+  padding: 15px 35px;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 46%;
+  top: 60%;
+  transition: all 0.6s;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  box-shadow: 0px 4px 4px rgba(225, 225, 225, 0.3);
+}
+
+.story {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  opacity: 0.95;
+  background: black;
+  display: table;
+}
+
+.story h1 {
+  letter-spacing: 3px;
+  background-color: black;
+  text-transform: uppercase;
+  align-content: center;
+  font-size: 150%;
+  line-height: 200%;
+  width: 20%;
+  text-align: center;
+  margin: 3%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  position: relative;
+  outline-color: rgba(217,245,255,1);
+  outline-style: double;
+}
+
+.story p {
+  background-color:black;
+  font-size: 120%;
+  line-height: 235%;
+  height: 75%;
+  width: 60%;
+  font-style: italic;
+  text-align: center;
+  margin: 3%;
+  position: relative;
+  margin: auto;
+  padding: 15px;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  outline-color: rgba(217,245,255,1);
+  outline-style: double;
+}
